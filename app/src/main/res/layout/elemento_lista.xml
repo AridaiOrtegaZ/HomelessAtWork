@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="16dp">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/primaryColor">
+
+       <TextView
+           android:id="@+id/textOpciones"
+           android:layout_width="40dp"
+           android:layout_height="wrap_content"
+           android:text="&#8942;"
+           android:textColor="@android:color/white"
+           android:gravity="center"
+           android:textSize="12pt" />
+
+       <TextView
+           android:id="@+id/nombreEmpleado"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:text="@string/nombreUsuario"
+           android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+           android:textColor="@android:color/white"
+           />
+
+       <ImageView
+           android:id="@+id/fotoEmpleado"
+           android:layout_width="100dp"
+           android:layout_height="80dp"
+           android:layout_below="@+id/nombreEmpleado"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="10dp"
+           android:src="@drawable/people" />
+
+       <TextView
+           android:id="@+id/edadEmpleado"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/nombreEmpleado"
+           android:layout_marginTop="10dp"
+           android:layout_toRightOf="@+id/fotoEmpleado"
+           android:text="@string/edad"
+           android:textColor="@android:color/white"
+           android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+       <TextView
+           android:id="@+id/ubicacionEmpleado"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/edadEmpleado"
+           android:layout_marginTop="10dp"
+           android:layout_toRightOf="@+id/fotoEmpleado"
+           android:text="@string/domicilio"
+           android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+           android:textColor="@android:color/white" />
+
+       <TextView
+           android:id="@+id/urlEmpleado"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="url"
+           android:layout_below="@+id/ubicacionEmpleado"
+           android:layout_toRightOf="@+id/fotoEmpleado"
+           android:visibility="invisible"
+           />
+
+   </RelativeLayout>
+</androidx.cardview.widget.CardView>

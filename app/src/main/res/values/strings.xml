@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Homeless</string>
+    <string name="tituloPrincipal">HomelessAtWork</string>
+    <string name="menuAdministrador">Menú Administrador</string>
+    <string name="homeless">Homeless</string>
+    <string name="contrataciones">Contrataciones</string>
+    <string name="subTitulo">Iniciar sesión</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="password">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="registrarUsuario">Registrar nuevo usuario</string>
+    <string name="salir">Salir</string>
+    <string name="nombreUsuario">Nombre de usuario</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="correo">Correo electronico</string>
+    <string name="edad">Edad</string>
+    <string name="domicilio">Domicilio</string>
+
+    <string name="btn_authenticate">Login</string>
+
+    <string name="biometric_title">Login</string>
+    <string name="biometric_subtitle">Login to your Osta account</string>
+    <string name="biometric_description">Place your finger on the device home button to verify your identity</string>
+    <string name="biometric_negative_button_text">CANCEL</string>
+
+
+    <string name="biometric_error_sdk_not_supported">Sdk version not supported</string>
+    <string name="biometric_error_hardware_not_supported">Device does not support biometric authentication</string>
+    <string name="biometric_error_fingerprint_not_available">Fingerprint is not registered in device</string>
+    <string name="biometric_error_permission_not_granted">Permission is not granted by user</string>
+    <string name="biometric_failure">Login not successful!</string>
+    <string name="biometric_cancelled">Authentication cancelled by user</string>
+    <string name="biometric_success">Login Successful</string>
+</resources>

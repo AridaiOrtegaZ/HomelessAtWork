@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Homeless" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryLightColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/primaryTextColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Homeless.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Homeless.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Homeless.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--Estilos de la aplicación-->
+    <style name="tituloPrincipal">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">12pt</item>
+    </style>
+
+    <style name="subTituloPrincipal">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">8pt</item>
+    </style>
+
+    <style name="tituloInput">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">8pt</item>
+    </style>
+
+    <style name="boton">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">6pt</item>
+    </style>
+</resources>
